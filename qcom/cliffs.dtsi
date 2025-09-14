@@ -2984,6 +2984,11 @@
 			compatible = "qcom,ucsi-glink";
 		};
 
+		charger_partition: charger_partition {
+			compatible = "xiaomi,charger_partition";
+			status = "disabled";
+		};
+
 		altmode: qcom,altmode {
 			compatible = "qcom,altmode-glink";
 			#altmode-cells = <1>;
